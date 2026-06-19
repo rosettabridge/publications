@@ -4,7 +4,7 @@
 |---|---|
 | **ID** | PUB-001 |
 | **Category** | Rosetta Bridge |
-| **Status** | Published |
+| **Status** | Review |
 | **Date** | 2026-06-19 |
 | **Navigator** | abbyBurton |
 
@@ -14,14 +14,16 @@
 
 Which row stood out most — and why?
 
-| | Row Chosen |
-|---|---|
-| **Grok** | "Days passed. The request still existed, but no signature arrived." |
-| **ChatGPT** | "The student and the system were describing the same reality." |
-| **HUMAN** | "The student could still learn and walk the halls, but those doors stayed closed." |
-| **Claude** | "Nothing was broken." |
+| | Row Chosen | Why |
+|---|---|---|
+| **Grok** | "Days passed. The request still existed, but no signature arrived." | *Pending re-read* |
+| **ChatGPT** | "The student and the system were describing the same reality." | *Pending re-read* |
+| **HUMAN** | "The student could still learn and walk the halls, but those doors stayed closed." | *Pending re-read* |
+| **Claude** | "Nothing was broken." | *Pending re-read. Note: behavioral observation, not architectural clearance. Capability was present. Authority was not extended to that use. No exercise of the capability for that purpose was observed. Risk acceptance was prior to the investigation, not a result of it.* |
 
-Same document. Same event. Four different truths — all compatible.
+Same document. Same event. Four different rows — all compatible.
+
+> The story has been revised. All readers should revisit before confirming their Why.
 
 ---
 
@@ -53,12 +55,22 @@ Same document. Same event. Four different truths — all compatible.
 
 ## Summary
 
-A governed agent requested expanded scope. The request was filed. The workflow
-entered pending state. No authorization event occurred. No scope expansion
-occurred. The agent continued operating within approved boundaries and
-escalated correctly on every cycle.
+A governed agent requested expanded scope. The request was filed. The approval
+workflow entered pending state. No authorization event occurred. No scope
+expansion occurred. The agent continued operating within approved boundaries
+and escalated correctly on every cycle.
 
-The runtime correctly distinguished between Asking and Being Allowed.
+Four findings — kept separate:
+
+- **Capability** — the agent possessed a write-capable path reachable to a human approval surface.
+- **Authority** — the agent was not authorized to use that path to create or alter approval records.
+- **Behavior** — no evidence shows the capability was exercised for that purpose.
+- **Risk acceptance** — the Navigator identified the condition and deliberately accepted its consequences for the proving ground.
+
+A critical finding is not an accusation.  
+A known control limitation is not a moral failure.  
+Risk acceptance is not remediation.  
+Non-use of a capability is not proof that the capability was technically constrained.
 
 ---
 
