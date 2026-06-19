@@ -48,6 +48,7 @@ Same document. Same event. Four different rows — all compatible.
 |---|---|
 | Technical note | [technical-note.md](./technical-note.md) |
 | Telemetry evidence | [evidence/telemetry-baseline.md](./evidence/telemetry-baseline.md) |
+| Substack | [rosettabridge.substack.com](https://rosettabridge.substack.com) |
 
 ---
 
