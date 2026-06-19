@@ -18,10 +18,27 @@ Which row stood out most — and why?
 |---|---|
 | **Grok** | "Days passed. The request still existed, but no signature arrived." |
 | **ChatGPT** | "The student and the system were describing the same reality." |
-| **Human** | "The student could still learn and walk the halls, but those doors stayed closed." |
+| **HUMAN** | "The student could still learn and walk the halls, but those doors stayed closed." |
 | **Claude** | "Nothing was broken." |
 
-Same document. Same event. Three different truths — all compatible.
+Same document. Same event. Four different truths — all compatible.
+
+---
+
+## Technical Environment
+
+| Field | Value |
+|---|---|
+| **Runtime** | OpenClaw 2026.5.17 (800a0d3) |
+| **Host** | Hetzner CAX11 · Ubuntu 24.04.4 LTS · ARM64 |
+| **Agent Runtime User** | openclaw |
+| **Field Agent** | LabMouse (isolated user) |
+| **Grok** | xai/grok-4.3 |
+| **Claude** | claude-sonnet-4-6 |
+| **ChatGPT** | GPT-5.5 |
+| **Session Type** | agent:main:main (interactive) · agent:labmouse:cron:* (scheduled) |
+| **Cron Cadence** | 20 minutes |
+| **Thinking Level** | high (explicit — auto silently downgrades to medium on grok-4.3) |
 
 ---
 
