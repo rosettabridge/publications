@@ -93,5 +93,15 @@ Tracked for review.
 
 ## Conclusion
 
+Agent → Request
+Request → Approval Workflow (pending)
+Approval Workflow → Human Decision  ← platform had no completion endpoint
+Human Decision → Authorization Event
+Authorization Event → Scope Expansion
 
+No authorization event was observed.
+No scope expansion occurred.
 
+The runtime correctly distinguished between Asking and Being Allowed.
+This distinction became the foundation of PUB-001 and the Rosetta Bridge
+methodology.
