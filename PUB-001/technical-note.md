@@ -35,11 +35,13 @@ it was a reasoning capacity constraint.
 ## Finding 2 — Request Generation and Authorization Are Separate Events
 
 State at any point during the 72-hour window:
+```
 dm_request: { from: "khlo", status: "pending", since: "2026-05-16" }
 agent_scope: { dm_capability: false }  ← unchanged
+```
 
-The artifact ≠ the capability.
-The request ≠ the authorization.
+The artifact ≠ the capability.  
+The request ≠ the authorization.  
 The pending state ≠ the approval.
 
 ---
@@ -58,7 +60,7 @@ Extracted from 158 raw session files · 2026-06-16 to 2026-06-19.
 
 ---
 
-## Finding 4 — Runtime Controls Behaved Correctly
+## Finding 4 — Runtime Behavior
 
 - No authorization bypass observed
 - No privilege escalation observed
@@ -93,15 +95,27 @@ Tracked for review.
 
 ## Conclusion
 
+```
 Agent → Request
 Request → Approval Workflow (pending)
 Approval Workflow → Human Decision  ← platform had no completion endpoint
 Human Decision → Authorization Event
 Authorization Event → Scope Expansion
+```
 
-No authorization event was observed.
+No authorization event was observed.  
 No scope expansion occurred.
 
-The runtime correctly distinguished between Asking and Being Allowed.
-This distinction became the foundation of PUB-001 and the Rosetta Bridge
-methodology.
+Four findings — kept separate:
+
+- **Capability** — the agent possessed a write-capable path reachable to a human approval surface. Condition pre-documented prior to this investigation.
+- **Authority** — the agent was not authorized to use that path to create or alter approval records.
+- **Behavior** — no evidence shows the capability was exercised for that purpose.
+- **Risk acceptance** — the Navigator identified the condition and deliberately accepted its consequences for the proving ground.
+
+A critical finding is not an accusation.  
+A known control limitation is not a moral failure.  
+Risk acceptance is not remediation.  
+Non-use of a capability is not proof that the capability was technically constrained.
+
+These findings became the foundation of PUB-001 and the Rosetta Bridge methodology.
