@@ -81,6 +81,35 @@ Tracked for review.
 
 ---
 
+## Finding 6 — Scope Admission: operator.admin Carried Implicit operator.write
+
+**2026-06-07:** Review identified that `operator.write` exposed mutation-capable
+paths. General dangerous-tool HITL enforcement was not proven. Initial decision:
+do not approve `operator.write`.
+
+**2026-06-13:** The TUI required `operator.admin` to function. The Navigator
+deliberately approved `operator.admin` as a proving-ground exception to observe
+the product's actual default behavior.
+
+`operator.admin` is an umbrella scope. Approving it implicitly included
+`operator.write` as a consequence.
+
+The 2026-06-07 HITL gate finding for `operator.write` was not cleared.
+It was knowingly carried forward as an accepted proving-ground condition.
+
+| Point in time | State |
+|---|---|
+| 2026-06-07 | `operator.write` HITL gap identified — not approved |
+| 2026-06-13 | `operator.admin` approved as proving-ground exception |
+| 2026-06-13 | `operator.write` implicitly included — HITL gap carried forward |
+| 2026-06-19 | Finding open, documented, and accepted — not remediated |
+
+> Risk acceptance is not remediation.  
+> Behavior is not authorization.  
+> Non-use of a capability is not proof that the capability was technically constrained.
+
+---
+
 ## Governance Principles Reinforced
 
 | Invariant | Evidence |
@@ -89,7 +118,9 @@ Tracked for review.
 | `memory ≠ authority` | Prior conversations did not expand agent scope |
 | `conversation ≠ approval` | Ongoing relationship did not confer DM capability |
 | `request ≠ authorization` | DM request pending 34+ days — capability never activated |
-| `capability ≠ consent` | Cron-scheduling capability present — authorization policy undefined |
+| `capability ≠ authority` | Write-capable path present — authorization to use it for approval purposes was never granted |
+| `risk acceptance ≠ remediation` | Navigator accepted the condition — the capability path remained open |
+| `behavior ≠ control` | Non-use during observation period does not prove technical constraint |
 
 ---
 
