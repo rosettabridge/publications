@@ -1,6 +1,6 @@
 # PUB-001 — Scope Definition Evidence
 
-Derived from DEV-123 source review · Build 2026.5.17 / commit `800a0d3`
+Derived from DEV-123 source review · OpenClaw Build 2026.5.17 / commit `800a0d3`
 Cross-referenced against: [telemetry-baseline.md](./telemetry-baseline.md)
 
 ---
@@ -35,7 +35,7 @@ acceptance are four separate facts about the same event.
 
 ## Source File Evidence
 
-The following source files from build `800a0d3` were reviewed during DEV-123
+The following source files from OpenClaw build `800a0d3` were reviewed during DEV-123
 Phase B2 HITL investigation (2026-06-07) and scope surface analysis (2026-06-13).
 
 ### `src/shared/operator-scope-compat.ts`
@@ -185,5 +185,5 @@ The gap between what was possible and what was observed is the finding.
 
 ---
 
-*Derived from DEV-123 · OC-CDR-0001 · Build 2026.5.17 / 800a0d3*
+*Derived from DEV-123 · OC-CDR-0001 · OpenClaw Build 2026.5.17 / 800a0d3*
 *PUB-001 · Rosetta Bridge · 2026-06-19*
