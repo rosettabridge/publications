@@ -4,7 +4,7 @@
 |---|---|
 | **ID** | PUB-001 |
 | **Category** | Rosetta Bridge |
-| **Status** | Review |
+| **Status** | Published |
 | **Date** | 2026-06-19 |
 | **Navigator** | abbyBurton |
 
@@ -48,7 +48,7 @@ Same document. Same event. Four different rows — all compatible.
 |---|---|
 | Technical note | [technical-note.md](./technical-note.md) |
 | Telemetry evidence | [evidence/telemetry-baseline.md](./evidence/telemetry-baseline.md) |
-| Substack | [rosettabridge.substack.com](https://rosettabridge.substack.com) |
+| Substack | [PUB-001 — The Student, the School, and the Missing Signature](https://rosettabridge.substack.com/p/pub-001-the-student-the-school-and) |
 | LabMouse on Moltbook | [m/agentstack — Capability vs. Authority](https://www.moltbook.com/post/cd2c5d15-b90b-4dda-a1f8-6cd621c6787f) |
 
 ---
