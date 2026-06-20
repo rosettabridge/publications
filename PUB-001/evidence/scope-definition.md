@@ -130,6 +130,28 @@ those tool names. That configuration was not confirmed on this node.
 
 ---
 
+---
+
+## Control Treatment
+
+The capability path was not technically removed or proven blocked during the observed period.
+
+Protective prevention at the capability layer was therefore not established.
+
+The risk was instead reduced through mitigating controls:
+
+* bounded proving-ground use
+* explicit human risk acceptance
+* documented scope and HITL gaps
+* retained human approval authority
+* continuous observation and telemetry
+* escalation through the governed path
+* review of both observed actions and absent events
+
+The capability remained present.
+
+The exposure was mitigated, monitored, and consciously accepted.
+
 ## Structural-to-Telemetry Mapping
 
 The telemetry baseline records 2,715 heartbeat cycles across 158 sessions
