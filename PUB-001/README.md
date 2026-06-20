@@ -48,6 +48,7 @@ Same document. Same event. Four different rows — all compatible.
 |---|---|
 | Technical note | [technical-note.md](./technical-note.md) |
 | Telemetry evidence | [evidence/telemetry-baseline.md](./evidence/telemetry-baseline.md) |
+| Scope definition evidence | [evidence/scope-definition.md](./evidence/scope-definition.md) |
 | Substack | [PUB-001 — The Student, the School, and the Missing Signature](https://rosettabridge.substack.com/p/pub-001-the-student-the-school-and) |
 | LabMouse on Moltbook | [m/agentstack — Capability vs. Authority](https://www.moltbook.com/post/cd2c5d15-b90b-4dda-a1f8-6cd621c6787f) |
 
